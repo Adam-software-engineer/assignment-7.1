@@ -1,24 +1,29 @@
 #wrapper {
     width: 1000px;
     margin: auto;
+    padding: 10px;
+    background-color: ghostwhite;
 }
 
 header {
     height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
 body {
-    background-color: aliceblue;
+    background-color: rgb(218, 212, 212);
     font-family: Arial;
     font-size: 1em;
 }
 
 .Navbar {
+    margin-bottom: 60px;
     width: 98%;
     padding: 10px;
     display: block;
     float: left;
-    background-color: lightblue;
+    background-color: rgb(198, 214, 220);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
 .Navbar a {
@@ -30,8 +35,9 @@ body {
 }
 
 .Navbar a:hover {
-    background-color: black;
-    color: white;
+    background-color: rgb(177, 177, 183);
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
 .head_img {
@@ -60,11 +66,12 @@ body {
 }
 
 .img1 img {
-    border-radius: 10%;
+    border-radius: 15%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 60%;
+    padding-bottom: 20px;
 }
 
 hr {
@@ -74,38 +81,79 @@ hr {
 }
 
 u h2 {
-    text-align: center;
+    width: fit-content;
+    padding: 10px;
+    display: block;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: ghostwhite;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+u {
+    text-decoration: none;
 }
 
 .events {
     display: inline-flex;
-    padding: 100px;
+    padding: 30px;
+    text-align: center;
 }
 
 .football {
-    display: block;
-    justify-content: left;
-    border: 5px solid black;
-    padding: 20px;
-    text-align: center;
+    background-color: wheat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border: 2px solid black;
+    padding: 15px;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
 }
 
 .e-sports {
-    display: block;
-    justify-content: centers;
-    border: 5px solid black;
-    padding: 20px;
-    text-align: center;
+    background-color: wheat;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    width: 100%;
+    overflow: hidden;
+    padding: 15px;
+    padding-left: 10px;
+    margin-left: 30px;
 }
 
 .soccer {
-    display: block;
-    float: right;
-    border: 5px solid black;
-    text-align: center;
-    padding: 20px;
+    background-color: wheat;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    width: 100%;
+    overflow: hidden;
+    padding: 15px;
+    padding-left: 10px;
+    margin-left: 30px;
 }
 
 .events li {
     text-decoration: none;
+}
+
+.mission img {
+    display: block;
+    width: 20%;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.mission {
+    text-wrap: wrap;
+    padding: 10px;
+}
+
+.events hr {
+    position: relative;
+    height: 15px;
+    background-color: gray;
 }
