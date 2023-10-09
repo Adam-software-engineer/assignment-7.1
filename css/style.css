@@ -52,11 +52,10 @@ body {
 .head_img h1 {
     color: white;
     text-align: center;
+    font-size: 250%;
     margin: auto;
     float: right;
     padding: 15px;
-    padding-top: 32px;
-    padding-right: 25%;
 }
 
 .head_img img {
@@ -156,4 +155,281 @@ u {
     position: relative;
     height: 15px;
     background-color: gray;
+}
+
+.about_img_starter {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    padding-left: 25%;
+    width: 100%;
+}
+
+.text {
+    text-align: center;
+    color: black;
+    padding: 15px;
+}
+
+.text h2 {
+    display: block;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    background-color: grey;
+    color: ghostwhite;
+    border-radius: 25%;
+}
+
+.text p {
+    font-size: larger;
+    padding: 15px;
+    color: black;
+}
+
+.text p:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.student_top_img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10%;
+}
+
+.student_text {
+    padding: 15px;
+}
+
+.student_text img {
+    float: left;
+    text-wrap: wrap;
+    padding: 5px;
+}
+
+.teacher_top_img img {
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Teachers {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Teachers img {
+    padding: 40px;
+    border-radius: 20%;
+}
+
+.math {
+    display: inline-flex;
+    padding: 30px;
+    text-align: center;
+}
+
+.math1 {
+    background-color: wheat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    width: 100%;
+    overflow: hidden;
+    padding: 15px;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+.math2 {
+    background-color: wheat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    width: 100%;
+    overflow: hidden;
+    padding: 15px;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+.science {
+    display: inline-flex;
+    padding: 30px;
+    text-align: center;
+}
+
+.science1 {
+    background-color: wheat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    width: 100%;
+    overflow: hidden;
+    padding: 15px;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+.science2 {
+    background-color: wheat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    width: 100%;
+    overflow: hidden;
+    padding: 15px;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+.history {
+    display: inline-flex;
+    padding: 30px;
+    text-align: center;
+}
+
+.history1 {
+    background-color: wheat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    width: 100%;
+    overflow: hidden;
+    padding: 15px;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+.history2 {
+    background-color: wheat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    width: 100%;
+    overflow: hidden;
+    padding: 15px;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+.english {
+    display: inline-flex;
+    padding: 30px;
+    text-align: center;
+}
+
+.english1 {
+    background-color: wheat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    width: 100%;
+    overflow: hidden;
+    padding: 15px;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+.english2 {
+    background-color: wheat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    width: 100%;
+    overflow: hidden;
+    padding: 15px;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+.library_top_img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+}
+
+.text_library {
+    padding: 15px;
+}
+
+.li1 {
+    background-color: gray;
+    color: ghostwhite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 20%;
+    width: 50%;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    font-size: large;
+    border: 5px solid black;
+}
+
+.li2 {
+    background-color: gray;
+    color: ghostwhite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 20%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    padding: 5px;
+    width: 50%;
+    font-size: large;
+    border: 5px solid black;
+}
+
+.li3 {
+    background-color: gray;
+    color: ghostwhite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 20%;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    font-size: large;
+    padding: 5px;
+    width: 50%;
+    border: 5px solid black;
+}
+
+.li4 {
+    background-color: gray;
+    color: ghostwhite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 20%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    font-size: large;
+    padding: 5px;
+    width: 50%;
+    border: 5px solid black;
+}
+
+.li5 {
+    background-color: gray;
+    color: ghostwhite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 20%;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    font-size: large;
+    padding: 5px;
+    width: 50%;
+    border: 5px solid black;
+}
+
+.text_library p {
+    padding-top: 5px;
+}
+
+.banned_book img {
+    display: block;
+    float: left;
+    width: 16%;
+    padding: 5px;
+}
+
+.banned_book {
+    text-wrap: wrap;
+    font-size: larger;
+}
+
+.banned_book p {
+    padding-left: 15px;
+    padding: 5px;
 }
